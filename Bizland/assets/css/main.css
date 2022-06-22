@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.main-header {
+  background-color: blue;
+}
+
+.main-header .test {
+  display: block;
+  padding: 13px;
+  color: white;
+  text-decoration: none;
+  opacity: 0.9;
+}
+
+.main-header li {
+  padding: 15px;
+  color: white;
+  opacity: 0.9;
+}
+
+.navbar .navbar-brand {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.navbar .nav-link {
+  letter-spacing: 0.1ch;
+}
+
+.navbar .nav-link:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.navbar .dropdown-item {
+  text-align: right;
+  color: lightgrey;
+  text-align: center;
+}
+
+.navbar .dropdown-item:hover {
+  color: blue;
+}
+
+#welcome {
+  background: url(https://bootstrapmade.com/demo/templates/BizLand/assets/img/hero-bg.jpg);
+  width: 100;
+  height: 70vh;
+}
+
+#welcome .title h1 {
+  font-size: 47px;
+  font-weight: 600;
+  line-height: 56px;
+}
+
+#welcome .title span {
+  color: blue;
+}
+
+#welcome .title h2 {
+  font-size: 25px;
+  font-weight: 400;
+  opacity: 0.9;
+}
+
+#welcome .title button {
+  background-color: blue;
+  color: white;
+  width: 150px;
+  height: 40px;
+  border-color: blue;
+  margin-right: 20px;
+}
+
+#welcome .title button:hover {
+  opacity: 0.8;
+}
+
+#welcome .title button .watch {
+  text-decoration: none;
+  color: black;
+}
+
+#about {
+  background-color: rgba(192, 192, 192, 0.3);
+}
+
+#about .title {
+  text-align: center;
+  opacity: 0.9;
+}
+
+#about .title h2 {
+  font-size: 15px;
+  font-weight: 600;
+  padding: 8px 20px;
+  margin-top: 30px;
+  border-radius: 40px;
+  background: #eff1fd;
+  color: #106eea;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+#about .title h3 {
+  margin: 10px;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+#about .title h3 span {
+  color: blue;
+}
+
+#about .title p {
+  font-weight: 500;
+}

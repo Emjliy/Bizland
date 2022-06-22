@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.main-header{
+    background-color: blue;
+    .test{
+        display: block;
+        padding: 13px;
+        color: white;
+        text-decoration: none;
+        opacity: 0.9;
+    }
+    li{
+        padding: 15px;
+        color: white;
+        opacity: 0.9;
+    }
+}
+.navbar{
+.navbar-brand {
+    font-size: 20px;
+    font-weight: bolder;
+}
+.nav-link {
+    letter-spacing: 0.1ch;
+          &:hover {
+        color: blue;
+        text-decoration: underline;
+    }
+}
+
+.dropdown-item {
+    text-align: right;
+    color: lightgrey;
+    text-align: center;
+     &:hover {
+        color: blue;
+    }
+}
+}
+
+#welcome{
+    background: url(https://bootstrapmade.com/demo/templates/BizLand/assets/img/hero-bg.jpg);
+    width: 100;
+    height: 70vh;
+    .title{
+    h1{
+        font-size: 47px;
+        font-weight: 600;
+        line-height: 56px;
+    }
+    span{
+        color: blue;
+    }
+    h2{
+        font-size: 25px;
+        font-weight: 400;
+        opacity: 0.9;
+    }
+    button{
+        background-color: blue;
+        color: white;
+        width: 150px;
+        height: 40px;
+        border-color: blue;
+        margin-right: 20px;
+         &:hover {
+        opacity: 0.8;
+    }
+    .watch{
+        text-decoration: none;
+        color: black;
+    }
+    }
+}
+}
+#about{
+  background-color:rgba(192,192,192,0.3);
+  .title{
+       text-align: center;
+        opacity: 0.9;
+  h2{
+    font-size: 15px;
+    font-weight: 600;
+    padding: 8px 20px;
+    margin-top: 30px;
+    border-radius: 40px;
+    background: rgb(239, 241, 253);
+    color: rgb(16, 110, 234);
+    display: inline-block;
+    text-transform: uppercase;
+  }
+  h3{
+      margin: 10px ;
+      font-weight: 700;
+      font-size:30px;
+      span{
+          color: blue;
+      }
+  }
+  p{
+    font-weight: 500;
+  }
+}
+
+}
+
